@@ -1,0 +1,100 @@
+body{
+    background-color:hsl(225, 100%, 94%);
+    position: relative;
+    margin: 0px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.top{
+    background-image: url("pattern-background-desktop.svg");
+    margin: 0px;
+    height: 300px;
+    width: 100%;
+    border-bottom-left-radius: 70%;
+      
+}
+p{
+    font-weight: 500;
+    text-align: center;
+    width: 80%;
+    margin: 10px auto;
+}
+.plan{
+    background-color:hsl(225, 100%, 98%);
+    width: 70%;
+    margin: 0px auto;
+    margin-top: -15px;
+    padding: 10px;
+}
+.plan a{
+    float: right;
+    text-align: right;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.plan img{
+display: inline;
+margin-left: -10px;
+margin-top: 10px;
+}
+.plan table{
+display: inline;
+margin-left: 10px;
+font-weight: 700;
+font-size: 13px;
+position: relative;
+top: -10px;
+
+}
+.dollar{
+    margin-top:-12px;
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+}
+main{
+    width: 400px;
+    position: absolute;
+    top: 80px;
+    left: 300px;
+    height: 520px;
+    background-color: hsl(225, 100%, 98%);
+}
+h1{
+    font-weight: 900;
+    margin: 15px auto;
+    text-align: center;
+}
+.hero{
+    width: 100%;
+    height: 40%;
+}
+.payment {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px; 
+    background-color:  hsl(245, 75%, 52%);
+    -webkit-box-shadow: 1px 14px 20px 12px #7280A7;
+    -moz-box-shadow: 1px 14px 20px 12px #7280A7;
+    box-shadow: 0px 10px 10px hsl(225, 100%, 94%);
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    margin:-10px auto;
+    width: 70%;
+ }
+ .cancel{
+     text-align: center;
+     margin: 10px auto;
+     display: block;
+     color: black;
+     text-decoration: none;
+ }
+ 
